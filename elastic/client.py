@@ -2,7 +2,7 @@ from datetime import datetime
 
 from elasticsearch import AsyncElasticsearch
 
-from app.core.config import settings
+from config import settings
 
 
 es_client = AsyncElasticsearch(

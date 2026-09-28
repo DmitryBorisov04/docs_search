@@ -2,7 +2,7 @@ from datetime import datetime
 
 from sqlalchemy import Integer, String, DateTime, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from sqlalchemy.ext.postgresql import ARRAY
+from sqlalchemy.dialects.postgresql import ARRAY
 
 
 class Base(DeclarativeBase):
